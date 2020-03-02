@@ -5,43 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label {
+
+            color: red
+        }
+    </style>
 </head>
 
 <body>
+    
+    <table>
+        <tr>
+            <td>
+                <label for="">nombre</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td rowspan="5"></td>
+        </tr>
 
-    <label for="">nombre</label>
-    <input type="text" >
+        <tr>
+            <td>
+                <label for="">apellido</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
 
-    <label for="">apellido</label>
-    <input type="text" >
+        <tr>
+            <td>
+                <label for="">f.nacimiento</label>
+            </td>
+            <td>
+                <input type="date">
+            </td>
+        </tr>
 
-    <label for="">f.nacimiento</label>
-    <input type="date" >
+        <tr>
+            <td>
+                <label for="">genero</label>
+            </td>
+            <td>
+                <input type="radio" name="genero" value="">hombre
+                <input type="radio" name="genero" value="">mujer
 
-    <label for="">genero</label>
-    <input type="radio" name="genero" value="">hombre
-    <input type="radio" name="genero" value="">mujer
+            </td>
+        </tr>
 
-    <label for="">t.contacto</label>
-    <input type="text" name="" id="">
+        <tr>
+            <td>
+                <label for="">t.contacto</label>
+            </td>
+            <td>
+                <input type="text" name="" id="">
+            </td>
+        </tr>
 
-    <label for="">acerca de mi</label>
-    <textarea name="" rows="3"></textarea>
+        <tr>
+            <td>
+                <label for="">acerca de mi</label>
+            </td>
+            <td>
+                <textarea name="" rows="3"></textarea>
+            </td>
+        </tr>
 
-    <label for="">mis objetivos</label>
-    <textarea name=""   rows="3"></textarea>
+        <tr>
+            <td>
+                <label for="">mis objetivos</label>
+            </td>
+            <td>
+                <textarea name="" rows="3"></textarea>
+            </td>
+        </tr>
 
-    <label for="">skill</label>
+        <tr>
+            <td rowspan="3" >
+                <label for="">skill</label>
+            </td>
+            <td>
+                 <input type="checkbox" name="" id=""> html
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> c#
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> bd sql
+            </td>
+        </tr>
 
-    <input type="checkbox" name="" id=""> html
-    <input type="checkbox" name="" id=""> css
-    <input type="checkbox" name="" id=""> javascript
-    <input type="checkbox" name="" id=""> c#
-    <input type="checkbox" name="" id=""> java
-    <input type="checkbox" name="" id=""> nodejs
-    <input type="checkbox" name="" id=""> BD SQL
-    <input type="checkbox" name="" id=""> PHP
-    <input type="checkbox" name="" id=""> angular 
+        <tr>
+           
+            <td>
+                 <input type="checkbox" name="" id=""> css
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> java
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> php
+            </td>
+        </tr>
+        <tr>
+           
+            <td>
+                 <input type="checkbox" name="" id=""> javascript
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> nodejs
+            </td>
+            <td>
+                <input type="checkbox" name="" id=""> angular
+            </td>
+        </tr>
+    </table>
+
+
 </body>
 
 </html>
